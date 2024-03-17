@@ -1,0 +1,367 @@
+.login-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.login-login {
+  width: 379px;
+  height: 814px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(171, 202, 234, 0.729411780834198);
+}
+.login-input-text {
+  top: 421px;
+  left: 30px;
+  width: 316px;
+  height: 35px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.login-bg {
+  right: 0px;
+  width: 316px;
+  bottom: -10px;
+  height: 35px;
+  position: absolute;
+}
+.login-text {
+  left: 19px;
+  color: var(--dl-color-gray-03);
+  bottom: -3px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Arvo;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-text02 {
+  color: var(--dl-color-green-primary);
+  right: 14px;
+  bottom: -2px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Arvo;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-input-text1 {
+  top: 371px;
+  left: 30px;
+  width: 316px;
+  height: 37px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.login-bg1 {
+  right: -1px;
+  width: 316px;
+  bottom: -12px;
+  height: 37px;
+  position: absolute;
+}
+.login-text04 {
+  left: 16px;
+  color: var(--dl-color-gray-03);
+  bottom: -5px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Arvo";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-text05 {
+  color: var(--dl-color-gray-03);
+  right: 4px;
+  bottom: -79px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Arvo";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline  none;
+}
+.login-text06 {
+  top: 10px;
+  left: 300px;
+  color: var(--dl-color-green-primary);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: right;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-text07 {
+  top: 333px;
+  left: 155px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 29px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Atomic Age;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-socialbutton {
+  gap: 16px;
+  top: 590px;
+  left: 74px;
+  width: 227px;
+  height: 29px;
+  display: flex;
+  padding: 12px 9px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  justify-content: center;
+  background-color: rgba(243, 249, 250, 1);
+}
+.login-socialbutton1 {
+  gap: 16px;
+  top: 633px;
+  left: 74px;
+  width: 227px;
+  height: 29px;
+  display: flex;
+  padding: 12px 9px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(243, 249, 250, 1);
+}
+.login-image {
+  width: 200px;
+  object-fit: cover;
+}
+.login-text09 {
+  top: 641px;
+  left: 139px;
+  color: var(--dl-color-default-secondarytext);
+  width: 135px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Arvo;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-text11 {
+  top: 598px;
+  left: 146px;
+  color: var(--dl-color-default-secondarytext);
+  width: 117px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Arvo;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-icon-google {
+  top: 594px;
+  left: 104px;
+  width: 24px;
+  height: 22px;
+  position: absolute;
+}
+.login-vector1 {
+  top: 563px;
+  left: 173px;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  align-self: stretch;
+}
+.login-main-button-desktop {
+  gap: 10px;
+  top: 509px;
+  left: 89px;
+  width: 204px;
+  height: 35px;
+  display: flex;
+  position: absolute;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: 16px;
+  padding-left: 75px;
+  border-radius: 12px;
+  padding-right: 16px;
+  flex-direction: row;
+  padding-bottom: 16px;
+  justify-content: space-between;
+  background-color: rgba(22, 45, 58, 1);
+}
+.login-text13 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Arvo";
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-rectangle13 {
+  width: 342px;
+  height: 566px;
+  display: flex;
+  align-items: flex-start;
+  border-radius: 32px;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("/external/rectangle132185-2518-400w.png");
+  background-position: center;
+}
+.login-image1 {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.login-text14 {
+  top: 555px;
+  left: 179px;
+  color: rgba(13, 27, 52, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Arvo;
+  font-weight: 400;
+  line-height: 110.00000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+@media(max-width: 479px) {
+  .login-login {
+    width: 100%;
+    height: 807px;
+  }
+  .login-bg {
+    right: -35px;
+    bottom: -2px;
+  }
+  .login-text {
+    left: 45px;
+    bottom: 3px;
+  }
+  .login-text02 {
+    top: 13px;
+    right: -18px;
+  }
+  .login-bg1 {
+    top: -5px;
+    right: -35px;
+  }
+  .login-text04 {
+    left: 47px;
+    bottom: 10px;
+  }
+  .login-text05 {
+    color: #aaa6a6;
+    right: -30px;
+    bottom: -70px;
+  }
+  .login-text07 {
+    top: 312px;
+    left: 187px;
+  }
+  .login-socialbutton {
+    top: 585px;
+    left: 109px;
+  }
+  .login-socialbutton1 {
+    top: 631px;
+    left: 107px;
+  }
+  .login-image {
+    width: 30px;
+    height: 29px;
+    margin-right: 130px;
+  }
+  .login-text09 {
+    top: 639px;
+    left: 182px;
+  }
+  .login-text11 {
+    top: 594px;
+    left: 182px;
+  }
+  .login-icon-google {
+    top: 589px;
+    left: 145px;
+  }
+  .login-vector1 {
+    top: 562px;
+    right: -61px;
+  }
+  .login-main-button-desktop {
+    top: 501px;
+    left: 125px;
+  }
+  .login-rectangle13 {
+    width: 360px;
+    height: 589px;
+  }
+  .login-text14 {
+    top: 553px;
+    left: 221px;
+  }
+}
